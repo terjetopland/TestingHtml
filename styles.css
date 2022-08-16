@@ -13,3 +13,20 @@ h2 {
 	color:rgba(120,40,90,40);
 	font-family: Franklin Gothic Medium;
 }
+
+a:link {
+	color: darkblue;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited {
+	color: red;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: darkblue;
+	background-color: transparent;
+	text-decoration: underline;
+	font-size: 25px;
+}
