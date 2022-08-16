@@ -1,3 +1,15 @@
+body {
+	background-color: rgb(120,180,70);
+}
+
+h1 {
+	 color:darkblue;
+	 font-family:tahoma;
+	 font-size:70px;
+	 text-align:center
+}
+
 h2 {
 	color:rgba(120,40,90,40);
+	font-family: Franklin Gothic Medium;
 }
