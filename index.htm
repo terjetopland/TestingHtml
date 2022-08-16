@@ -4,7 +4,7 @@
 <head>
 	<link href="styles.css" rel="stylesheet" type="text/css">
 	<style>
-		figure {
+		.pic {
 			display: block;
 			margin-left: auto;
 			margin-right: auto;
@@ -15,7 +15,9 @@
 
 <body>
 
-<h1>
+<button style="padding:3px 3px; background-color:rgb(120,180,70)"><a href="#jumpTB">Jump to bottom</a></button>
+
+<h1 id="jumpTT">
 	<b>Iceland <sub>2015</sub></b>
 </h1>
 
@@ -24,8 +26,10 @@
 </h2>
 <br>
 
-<figure align="center";">
-	<a href="https://github.com/terjetopland" target="_blank"><img src="C:\Users\terje\ikt201-g22h\Course prep\pic\014 Landskap 01.jpg" alt="Landscape of Iceland" title="Go to my Github by clicking"width="700" height="500"></a>
+
+
+<figure class="pic" align="center">
+	<img src="C:\Users\terje\ikt201-g22h\Course prep\pic\014 Landskap 01.jpg" alt="Landscape of Iceland" title="Go to my Github by clicking"width="700" height="500">
 	<figcaption>Landscape of Iceland. Photo: <em>Terje Topland</em></figcaption>
 	<br>
 	<img src="C:\Users\terje\ikt201-g22h\Course prep\pic\042 Landskap.jpg" alt="Roads on Iceland" width="700" height="500">
@@ -67,12 +71,14 @@
 </bdo>
 <br><br>
 
-<address>
+<address class="address" id="jumpTB">
 	Written by Terje Topland<br>
 	You find some of my projects at <a href="https://github.com/terjetopland" target="_blank">github.</a><br>
 	If you want to contact me please send <a href="mailto:terjetopland@yahoo.no">email</a>
 </address>
 <br>
+
+<button style="padding:3px 3px; background-color:rgb(120,180,70)"><a href="#jumpTT">Jump to bottom</a></button>
 <br>
 
 </body>

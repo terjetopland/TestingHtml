@@ -16,17 +16,19 @@ h2 {
 
 a:link {
 	color: darkblue;
-	background-color: transparent;
+	background-color: none;
 	text-decoration: none;
+	
 }
 a:visited {
 	color: red;
-	background-color: transparent;
+	background-color: none;
 	text-decoration: none;
 }
 a:hover {
 	color: darkblue;
-	background-color: transparent;
+	background-color: green;
 	text-decoration: underline;
-	font-size: 25px;
+	font-size: 20px;
+	padding: 3px 7px;
 }
