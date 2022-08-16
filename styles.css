@@ -27,7 +27,7 @@ a:visited {
 }
 a:hover {
 	color: darkblue;
-	background-color: green;
+	background-color: none;
 	text-decoration: underline;
 	font-size: 20px;
 	padding: 3px 7px;
