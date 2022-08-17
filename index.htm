@@ -33,11 +33,18 @@
 
 
 <figure align="center">
-	<a href="landscape.html"><img src="pic\014 Landskap 01.jpg" alt="Landscape of Iceland" width="700" height="500" title="For more landscape images click here."></a>
+	<img class="bigSizeLanPic" src="pic\014 Landskap 01.jpg" alt="Landscape of Iceland" usemap="#ImgMap" title="For more landscape images click here.">
 	<figcaption>Landscape of Iceland. Photo: <em>Terje Topland</em></figcaption>
 </figure>
+
+<map name="ImgMap">
+	<area shape="default" href="landscape.html" onclick="clickedImg()">
+</map>
+
 <br><!--This starts a new line-->
 <hr><!--This gives a horisontal line-->
+
+
 
 <p style="text-align:center" title="text-align center and linebreak in the middle of the text">
 	This is a paragraph <br>with a line break. 
@@ -82,7 +89,11 @@
 <button style="padding:3px 3px; background-color:rgb(120,180,70)"><a href="#jumpTT">Jump to top</a></button>
 <br>
 
-
+<script>
+function clickedImg() {
+	alert("You clicked the image and will see more photos like this!");
+}
+</script>
 
 </body>
 </html>
