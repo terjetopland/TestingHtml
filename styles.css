@@ -2,16 +2,15 @@ body {
 	margin: 0;
 	font-family: system-ui;
 	background-color: rgb(120,180,70);
-	
 }
 
 h1 {
 	 background-image: url("pic/20210606_100404_001 (2).jpg");
+	 background-attachment: fixed;
 	 color:white;
 	 font-family:tahoma;
 	 font-size:70px;
 	 text-align:center
-	 
 }
 
 h2 {
@@ -43,3 +42,4 @@ a:hover {
 			width: 700px;
 			height: 500px;
 }
+
