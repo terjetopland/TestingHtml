@@ -1,9 +1,13 @@
 body {
+	margin: 0;
+	font-family: system-ui;
 	background-color: rgb(120,180,70);
 }
 
 h1 {
-	 color:darkblue;
+	 background-image: url("pic/20210606_100404_001 (2).jpg");
+	 background-attachment: fixed;
+	 color:white;
 	 font-family:tahoma;
 	 font-size:70px;
 	 text-align:center
@@ -21,7 +25,7 @@ a:link {
 	
 }
 a:visited {
-	color: red;
+	color: white;
 	background-color: none;
 	text-decoration: none;
 }
@@ -31,9 +35,11 @@ a:hover {
 	text-decoration: underline;
 	font-size: 20px;
 	padding: 3px 7px;
+	
 }
 
 .bigSizeLanPic {
 			width: 700px;
 			height: 500px;
 }
+
