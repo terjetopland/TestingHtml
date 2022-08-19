@@ -2,92 +2,61 @@
 <html lang="en">
 
 <head>
-	<link href="styles.css" rel="stylesheet" type="text/css">
-	<link rel="icon" type="image/x-icon" href="pic/favicon.ico">
-	<style>
-		
-	</style>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="pic/favicon.ico">
+    <style>
+
+    </style>
 </head>
 
 
 <body>
 
 
-
 <h1>
-	<b>My portfolio of pictures <sub>2022</sub></b>
+    <b>My portfolio of pictures <sub>2022</sub></b>
 </h1>
 
-<button id="jumpTT" style="padding:2px 2px; background-color:rgb(120,180,70)"><a href="#jumpTB">Jump to bottom</a></button>
+<button id="jumpTT" style="padding:2px 2px; background-color:rgb(120,180,70)"><a href="#jumpTB">Jump to bottom</a>
+</button>
 
 <h2>
-	This page is just for testing out html/css/javascript
+    This page is just for testing out html/css/javascript
 </h2>
 <br>
 
 <figure align="center">
-	<img class="bigSizeLanPic" src="pic\014 Landskap 01.jpg" alt="Landscape of Iceland" usemap="#ImgMap" title="For more landscape images click here.">
-	<figcaption>Landscape of Iceland. Photo: <em>Terje Topland</em></figcaption>
+    <img alt="Landscape of Iceland" class="bigSizeLanPic" src="pic\014 Landskap 01.jpg"
+         title="For more landscape images click here."
+         usemap="#ImgMap">
+    <figcaption>Landscape of Iceland. Photo: <em>Terje Topland</em></figcaption>
 </figure>
 
 <map name="ImgMap">
-	<area shape="default" href="landscape.html" onclick="clickedImg()">
+    <area shape="default" href="landscape.html" alt="Landscape on Iceland" onclick="clickedImg()">
 </map>
-
 <br><!--This starts a new line-->
 <hr><!--This gives a horisontal line-->
 
-
-
-<p style="text-align:center" title="text-align center and linebreak in the middle of the text">
-	This is a paragraph <br>with a line break. 
-</p>
-
-<p style="background-color:rgb(0, 119, 128)">
-	<em><b>This text is <mark>emhpasized</mark> and <mark>bold</mark></b></em>
-</p>
-
-<!--testing out quote and border-->
-<p style="border:2px solid blue;color:rgba(150,70,250,80)" title="border, quote and rgba with opacity">
-	Here comes a <q>quote</q>.
-</p>
-<br>
-
-<blockquote>This hole block is a quote.</blockquote>
-
-<pre>
-	To be
-		or not to be
-			That is the
-				Question
-</pre><!--Testing out the pre-->
-
-<p>
-	<abbr title="Universitetet i Agder">UiA</abbr> is an abbriviation of <q><em>Universitetet i Agder</em></q>
-</p>
-<br>
-
 <bdo dir="rtl" style="color:bisque">
-	Funny to see how text easy can be manupulated and written in reverse
+    Funny to see how text easy can be manupulated and written in reverse
 </bdo>
 <br><br>
 
 <address class="address" id="jumpTB">
-	Written by Terje Topland<br>
-	You find some of my projects at <a href="https://github.com/terjetopland" target="_blank">github.</a><br>
-	If you want to contact me please send me an <a href="mailto:terjetopland@yahoo.no">email</a>
+    Written by Terje Topland<br>
+    You find some of my projects at <a href="https://github.com/terjetopland" target="_blank">github.</a><br>
+    If you want to contact me please send me an <a href="mailto:terjetopland@yahoo.no">email</a>
 </address>
 <br>
 
 <button style="padding:2px 2px; background-color:rgb(120,180,70)"><a href="#jumpTT">Jump to top</a></button>
 <br>
 
-
-
 <script>
-function clickedImg() {
-	alert("You clicked the image and will see more photos like this!");
-}
+    function clickedImg() {
+        alert("You clicked the image and will see more photos like this!");
+    }
 </script>
 
 </body>

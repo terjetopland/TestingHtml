@@ -38,6 +38,11 @@ a:hover {
 	
 }
 
+table, th, td {
+	width: 70%;
+	border: 1px darkblue;
+}
+
 .bigSizeLanPic {
 			width: 700px;
 			height: 500px;
