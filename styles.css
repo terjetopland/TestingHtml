@@ -8,39 +8,54 @@ h1 {
 	 background-image: url("pic/20210606_100404_001 (2).jpg");
 	 background-attachment: fixed;
 	 color:white;
-	 font-family:tahoma;
+	 font-family: tahoma, monospace;
 	 font-size:70px;
 	 text-align:center
 }
 
 h2 {
 	color:rgba(120,40,90,40);
-	font-family: Franklin Gothic Medium;
+	font-family: Franklin Gothic Medium, serif;
+}
+
+.picLanCenter {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a:link {
 	color: darkblue;
-	background-color: none;
+	background-color: transparent;
 	text-decoration: none;
 	
 }
 a:visited {
 	color: white;
-	background-color: none;
+	background-color: transparent;
 	text-decoration: none;
 }
 a:hover {
 	color: darkblue;
-	background-color: none;
+	background-color: transparent;
 	text-decoration: underline;
 	font-size: 20px;
 	padding: 3px 7px;
 	
 }
 
-table, th, td {
-	width: 70%;
-	border: 1px darkblue;
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid darkblue;
+	width: 50%;
+	border-collapse: collapse;
+}
+
+tr, td {
+	border: 1px solid white;
+
 }
 
 .bigSizeLanPic {
