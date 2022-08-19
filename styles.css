@@ -54,8 +54,12 @@ table{
 }
 
 tr, td {
-	border: 1px solid white;
+	border: 1px dotted white;
 	border-radius: 10px;
+}
+
+td {
+	text-align: right;
 }
 
 .bigSizeLanPic {
@@ -65,4 +69,12 @@ tr, td {
 
 .imgHoverSizeUp500:hover {
 	transform: scale(500%);
+}
+
+.alignLeft {
+	float: left;
+}
+
+.alignRight {
+	float: right;
 }
