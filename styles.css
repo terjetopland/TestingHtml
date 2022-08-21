@@ -58,17 +58,34 @@ tr, td {
 	border-radius: 10px;
 }
 
+th {
+	border: 2px dotted darkblue;
+	border-radius: 10px;
+}
+
+th:hover {
+	text-transform: uppercase;
+	transform: scale(150%) skew(30deg, 20deg);
+	transition-duration: revert;
+}
+
 td {
 	text-align: right;
 }
+
 
 .bigSizeLanPic {
 			width: 700px;
 			height: 500px;
 }
 
+.imgHoverSizeUp120:Hover {
+	transform: scale(120%);
+}
+
 .imgHoverSizeUp500:hover {
 	transform: scale(500%);
+
 }
 
 .alignLeft {
