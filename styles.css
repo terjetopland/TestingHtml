@@ -56,10 +56,33 @@ table{
 tr, td {
 	border: 1px dotted white;
 	border-radius: 10px;
+	padding: 15px;
+}
+
+th {
+	border: 2px dotted darkblue;
+	border-radius: 10px;
+}
+
+th:hover {
+	text-transform: uppercase;
+	transform: scale(150%) skew(30deg, 20deg);
 }
 
 td {
 	text-align: right;
+}
+
+tr:nth-child(even) {
+	background-color: rgb(150,180,70);
+}
+
+tr:nth-child(odd) {
+	background-color: rgb(120,180,90);
+}
+
+tr:hover {
+	background-color: bisque;
 }
 
 .bigSizeLanPic {
@@ -67,8 +90,13 @@ td {
 			height: 500px;
 }
 
+.imgHoverSizeUp120:Hover {
+	transform: scale(120%);
+}
+
 .imgHoverSizeUp500:hover {
 	transform: scale(500%);
+
 }
 
 .alignLeft {
