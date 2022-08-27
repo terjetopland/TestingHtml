@@ -106,3 +106,25 @@ tr:hover {
 .alignRight {
 	float: right;
 }
+
+.pCenter {
+	text-align: center;
+}
+
+.border-middle {
+	border-left: 2px solid lightgray;
+	border-right: 2px solid lightgrey;
+}
+
+.rowHeading {
+	display: inline;
+	float: left;
+	width: 2000px;
+	font-size: 25px;
+	margin: 20px;
+}
+
+.rowHeadingElement {
+	display: inline;
+	margin: 200px;
+}
