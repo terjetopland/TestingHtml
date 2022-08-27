@@ -58,6 +58,18 @@
     </tr>
 </table>
 <br>
+<hr>
+
+
+<div class="rowHeading textFollowSite">
+    <div onclick="clickedText()" id="textFollowSiteHover" class="centered">
+        I follow you!
+    </div>
+    <div id="testing"></div>
+</div>
+
+
+
 
 <bdo dir="rtl" style="color:bisque">
     Funny to see how text easy can be manupulated and written in reverse
@@ -77,6 +89,18 @@
 <script>
     function clickedImg() {
         alert("You clicked the image and will see more photos like this!");
+    }
+
+    let bool = true;
+    function clickedText() {
+        if(bool === true)
+            document.getElementById("testing").innerHTML = "It's working fine"
+
+        if(bool === false)
+            document.getElementById("testing").innerHTML = "";
+
+        bool = !bool;
+
     }
 </script>
 
