@@ -18,10 +18,14 @@
 
 </head>
 
-<body style="background-color: rgb(120,180,60);">
+<body id="landscapeBody" style="background-color: rgb(120,180,60);">
 
 <div style="text-align:right">
 	<button style="background-color: rgb(120,180,70)"><a href="index.htm">Back to Home page</a></button>
+	<form>
+		<label for="myColor" class="form-label">Pick a color for the background</label>
+		<input type="color" class="form-control form-control-color" id="myColor" value="white" title="Choose a color" onchange="changeBackgroundColorLandscape()">
+	</form>
 </div>
 
 <figure class="picLanCenter">
@@ -30,8 +34,14 @@
 	<br>
 	<img src="pic\042 Landskap.jpg" alt="Roads on Iceland" width="700" height="500">
 	<figcaption>Roads on Iceland. Photo: <em>Terje Topland</em></figcaption>
-	
 </figure>
+<br>
 
 
+
+<script>
+	function changeBackgroundColorLandscape() {
+		document.getElementById('landscapeBody').style.backgroundColor =  document.getElementById('myColor').value
+	}
+</script>
 </body>
